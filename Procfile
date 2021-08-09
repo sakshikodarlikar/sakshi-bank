@@ -1,4 +1,4 @@
 release: python manage.py makemigrations --no-input
 release: python manage.py migrate --no-input
 
-web: gunicoorn bank.wsgi
+web: gunicorn bank.wsgi
