@@ -26,3 +26,19 @@ All the above objectives completed.
 - run the app ```python manage.py runserver```
 
 
+## Link to upload the excel file
+
+```https://sakshi-bank.herokuapp.com/```  - choose a excel file for particular table and choose that table. These appends the data in the sqlite database.
+
+## Link for tables
+
+```https://sakshi-bank.herokuapp.com/customer/``` - Customer Table
+
+```https://sakshi-bank.herokuapp.com/branch/``` - Branch Data Table
+
+```https://sakshi-bank.herokuapp.com/customeraddress/``` - Customer Home Address Data Table
+
+```https://sakshi-bank.herokuapp.com/customeroffice/``` - Customer Office Data Table
+
+```https://sakshi-bank.herokuapp.com/loandata/``` - Loan Amount Data Table
+
