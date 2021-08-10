@@ -43,3 +43,22 @@ All the above objectives completed.
 
 ```https://sakshi-bank.herokuapp.com/loandata/``` - Loan Amount Data Table
 
+
+## How to test API's
+
+### Method 1:
+
+1. Go to route ```https://sakshi-bank.herokuapp.com/``` and post the following customer excel sheet -> https://github.com/sakshikodarlikar/sakshi-bank/raw/main/Tables%20file/customer2.xlsx and Customer option and check the customers added at ```https://sakshi-bank.herokuapp.com/customer/```
+
+2. Go to route ```https://sakshi-bank.herokuapp.com/``` and post the following customer excel sheet -> https://github.com/sakshikodarlikar/sakshi-bank/raw/main/Tables%20file/customer2.xlsx and Customer option and check the customers added at ```https://sakshi-bank.herokuapp.com/customer/```
+
+3. Go to route ```https://sakshi-bank.herokuapp.com/``` and post the following customer excel sheet -> https://github.com/sakshikodarlikar/sakshi-bank/raw/main/Tables%20file/customer2.xlsx and Customer option and check the customers added at ```https://sakshi-bank.herokuapp.com/customer/```
+
+4. Go to route ```https://sakshi-bank.herokuapp.com/``` and post the following customer excel sheet -> https://github.com/sakshikodarlikar/sakshi-bank/raw/main/Tables%20file/customer2.xlsx and Customer option and check the customers added at ```https://sakshi-bank.herokuapp.com/customer/```
+
+5. Go to route ```https://sakshi-bank.herokuapp.com/``` and post the following customer excel sheet -> https://github.com/sakshikodarlikar/sakshi-bank/raw/main/Tables%20file/customer2.xlsx and Customer option and check the customers added at ```https://sakshi-bank.herokuapp.com/customer/```
+
+### Method 2: Using POSTMAN
+1. Open Postman 
+2. Post following link - ```https://sakshi-bank.herokuapp.com/customer/``` in the body section select 'form data' option. Write 'file' as key value,select file option from the dropdown and the choose customer.xlsx file to upload and the send.
+3. 
