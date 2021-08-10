@@ -48,17 +48,30 @@ All the above objectives completed.
 
 ### Method 1:
 
-1. Go to route ```https://sakshi-bank.herokuapp.com/``` and post the following customer excel sheet -> https://github.com/sakshikodarlikar/sakshi-bank/raw/main/Tables%20file/customer2.xlsx and Customer option and check the customers added at ```https://sakshi-bank.herokuapp.com/customer/```
+1. Go to route ```https://sakshi-bank.herokuapp.com/``` and post the following customer excel sheet -> https://github.com/sakshikodarlikar/sakshi-bank/raw/main/Tables%20file/customer2.xlsx and CUSTOMER option and check the customers added at ```https://sakshi-bank.herokuapp.com/customer/```
 
-2. Go to route ```https://sakshi-bank.herokuapp.com/``` and post the following customer excel sheet -> https://github.com/sakshikodarlikar/sakshi-bank/raw/main/Tables%20file/customer2.xlsx and Customer option and check the customers added at ```https://sakshi-bank.herokuapp.com/customer/```
+2. Go to route ```https://sakshi-bank.herokuapp.com/``` and post the following Branch Data excel sheet -> https://github.com/sakshikodarlikar/sakshi-bank/raw/main/Tables%20file/branch_data2.xlsx and BRANCH_DATA option and check the Branch Data added at ```https://sakshi-bank.herokuapp.com/branch/```
 
-3. Go to route ```https://sakshi-bank.herokuapp.com/``` and post the following customer excel sheet -> https://github.com/sakshikodarlikar/sakshi-bank/raw/main/Tables%20file/customer2.xlsx and Customer option and check the customers added at ```https://sakshi-bank.herokuapp.com/customer/```
+3. Go to route ```https://sakshi-bank.herokuapp.com/``` and post the following Customer Home Address Data excel sheet -> https://github.com/sakshikodarlikar/sakshi-bank/raw/main/Tables%20file/customer_address_data%202.xlsx and CUSTOMER_ADDRESS option and check the Customer Home Address Data added at ```https://sakshi-bank.herokuapp.com/customeraddress/```
 
-4. Go to route ```https://sakshi-bank.herokuapp.com/``` and post the following customer excel sheet -> https://github.com/sakshikodarlikar/sakshi-bank/raw/main/Tables%20file/customer2.xlsx and Customer option and check the customers added at ```https://sakshi-bank.herokuapp.com/customer/```
+4. Go to route ```https://sakshi-bank.herokuapp.com/``` and post the following Customer Office Data excel sheet -> https://github.com/sakshikodarlikar/sakshi-bank/raw/main/Tables%20file/customer_office_data%202.xlsx and CUSTOMER_OFFICE option and check the Customer Office Data added at ```https://sakshi-bank.herokuapp.com/customeroffice/```
 
-5. Go to route ```https://sakshi-bank.herokuapp.com/``` and post the following customer excel sheet -> https://github.com/sakshikodarlikar/sakshi-bank/raw/main/Tables%20file/customer2.xlsx and Customer option and check the customers added at ```https://sakshi-bank.herokuapp.com/customer/```
+5. Go to route ```https://sakshi-bank.herokuapp.com/``` and post the following Loan Amount Data excel sheet -> https://github.com/sakshikodarlikar/sakshi-bank/raw/main/Tables%20file/loan_amount_data%202.xlsx and LOAN_AMOUNT option and check the Loan Amount Data added at ```https://sakshi-bank.herokuapp.com/loandata/```
+
 
 ### Method 2: Using POSTMAN
+
 1. Open Postman 
+
 2. Post following link - ```https://sakshi-bank.herokuapp.com/customer/``` in the body section select 'form data' option. Write 'file' as key value,select file option from the dropdown and the choose customer.xlsx file to upload and the send.
-3. 
+
+3. Post following link - ```https://sakshi-bank.herokuapp.com/branch/``` in the body section select 'form data' option. Write 'file' as key value,select file option from the dropdown and the choose branch_data.xlsx file to upload and the send.
+
+
+4. Post following link - ```https://sakshi-bank.herokuapp.com/customeraddress/``` in the body section select 'form data' option. Write 'file' as key value,select file option from the dropdown and the choose customer_address_data.xlsx file to upload and the send.
+
+
+5. Post following link - ```https://sakshi-bank.herokuapp.com/customeroffice/``` in the body section select 'form data' option. Write 'file' as key value,select file option from the dropdown and the choose customer_office_data.xlsx file to upload and the send.
+
+
+6. Post following link - ```https://sakshi-bank.herokuapp.com/loandata/``` in the body section select 'form data' option. Write 'file' as key value,select file option from the dropdown and the choose loan_amount_data.xlsx file to upload and the send.
