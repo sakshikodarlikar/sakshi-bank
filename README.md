@@ -27,9 +27,6 @@ All the above objectives completed.
 - run the app ```python manage.py runserver```
 
 
-## Link to upload the excel file
-
-```https://sakshi-bank.herokuapp.com/```  - choose a excel file for particular table and select that table. These appends the data in the sqlite database.
 
 ## Link for tables
 
@@ -75,3 +72,9 @@ All the above objectives completed.
 
 
 6. Post following link - ```https://sakshi-bank.herokuapp.com/loandata/``` in the body section select 'form data' option. Write 'file' as key value,select file option from the dropdown and the choose https://github.com/sakshikodarlikar/sakshi-bank/raw/main/Tables%20file/loan_amount_data%202.xlsx file to upload and the send.
+
+
+
+## Link to upload the excel file
+
+```https://sakshi-bank.herokuapp.com/```  - choose a excel file for particular table and select that table. These appends the data in the sqlite database.
